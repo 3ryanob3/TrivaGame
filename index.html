@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+    <title>Thee Quizzzz</title>
+    <link rel="stylesheet" href="assets/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link rel="stylesheet" href="assets/javacript/app.js" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
+</head>
+<body> 
+    <h1>Welcome !</h1>
+
+    <form id ="quiz" name = "quiz">
+
+    <p>Whats the name of these big machines?</p>
+    <input type = "radio" id = "mc" name = "question1" value = "Mobile Suit Gundam">Mobile Suit Gundam<br>
+    <input type = "radio" id = "mc" name = "question1" value = "Inspector Gadget">Inspector Gadget<br>
+    <input type = "radio" id = "mc" name = "question1" value = "R2-D2">R2-D2<br>
+    <input type = "radio" id = "mc" name = "question1" value = "The Iron Giant">The Iron Giant<br>
+
+    <p>Which one is the name of a Female pilot?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "Loran Cehack">Loran Cehack<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Amber Rose">Amber Rose<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Princess Leia">Princess Leia<br>
+
+    <p>Which Machine was the fastest?</p>
+    <input type = "radio" id = "mc" name = "question3" value = "Stargazer">Stargazer<br>
+    <input type = "radio" id = "mc" name = "question3" value = "GP03 Dendrobium">GP03 Dendrobium<br>
+    <input type = "radio" id = "mc" name = "question3" value = "GP01 Zephyranthes">GP01 Zephyranthes<br>
+
+    <input id = "button" type = "button" value = "im finished!" onclick = "check();">
+    
+
+</form>
+<div id = "after_submit">
+
+<p id = "number_correct">You finished good job</p>
+<img id = "picture">
+
 </body>
+</div>
+<link rel="stylesheet" href="assets/javacript/app.js" rel="stylesheet">
 </html>
