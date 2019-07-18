@@ -5,7 +5,7 @@
     var question3 = document.quiz.question3.value;
     var correct = 0;
 
-    if (question1 == "Mobile Suit Gundam") {
+    if(question1 == "Mobile Suit Gundam") {
         correct++;
     }
     if (question2 == "Loran Cehack") {
