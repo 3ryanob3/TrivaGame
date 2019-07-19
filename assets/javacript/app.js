@@ -34,3 +34,4 @@ document.getElementById("after_sumbit").style.visibility = "visible";
 document.getElementById("number_correct").innerHTML = " You got " + correct + "correct";
 document.getElementById("picture").src = pictures[range];
 }
+  
